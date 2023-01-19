@@ -12,7 +12,9 @@ const getParameterByName =(name) =>{
 
 let avatar = getParameterByName('avatar');
 console.log('avatar selected: ',avatar);
-
+if(!avatar){
+    avatar = 'Chubby';
+};
   const sceneryName = 'amphitheater';
   const avatars = {'Chubby':'ChubbyRigged.fbx','Buffed':'BuffedRigged.fbx','Female':'FemaleRigged.fbx','Male':'MaleRigged.fbx'};
 	const sceneryOptions = {
