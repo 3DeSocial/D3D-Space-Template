@@ -29,7 +29,7 @@
 	"dependencies": {
 		"@esbuild-plugins/node-globals-polyfill": "^0.1.1",
 		"@esbuild-plugins/node-modules-polyfill": "^0.1.4",
-		"d3d": "3desocial/D3D.js#main",
+		"d3d": "3desocial/D3D.js#d11dd56bced5dc395cd14b81ec585cbe18d66d2e",
 		"deso-protocol": "^0.7.25",
 		"filepond": "^4.30.4",
 		"filepond-plugin-image-exif-orientation": "^1.0.11",
